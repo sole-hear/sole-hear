@@ -1,0 +1,84 @@
+﻿html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+div,
+form,
+pre,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    /*font-family: .PingFangSC-Regular;*/
+    font-family: arial,"微软雅黑",sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+._clearfix {
+    *zoom: 1;
+}
+
+    .clearfix:after {
+        display: block;
+        height: 0;
+        content: ".";
+        visibility: hidden;
+        overflow: hidden;
+        clear: both;
+    }
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
